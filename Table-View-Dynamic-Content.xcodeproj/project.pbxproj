@@ -16,6 +16,13 @@
 		DA7B286F250DE07800E6BD25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7B286E250DE07800E6BD25 /* main.m */; };
 		DA7B2879250DE07800E6BD25 /* Table_View_Dynamic_ContentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7B2878250DE07800E6BD25 /* Table_View_Dynamic_ContentTests.m */; };
 		DA7B2884250DE07800E6BD25 /* Table_View_Dynamic_ContentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7B2883250DE07800E6BD25 /* Table_View_Dynamic_ContentUITests.m */; };
+		DA7B2893250DE52600E6BD25 /* TavleTableViewControllerHello.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7B2892250DE52600E6BD25 /* TavleTableViewControllerHello.m */; };
+		DA7B289A250DEFB500E6BD25 /* Teja.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7B2898250DEFB500E6BD25 /* Teja.png */; };
+		DA7B28A0250DF02800E6BD25 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA7B289B250DF02800E6BD25 /* 4.jpg */; };
+		DA7B28A1250DF02800E6BD25 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA7B289C250DF02800E6BD25 /* 3.jpg */; };
+		DA7B28A2250DF02800E6BD25 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7B289D250DF02800E6BD25 /* 2.png */; };
+		DA7B28A3250DF02800E6BD25 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7B289E250DF02800E6BD25 /* 5.png */; };
+		DA7B28A4250DF02800E6BD25 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7B289F250DF02800E6BD25 /* 6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +61,14 @@
 		DA7B287F250DE07800E6BD25 /* Table-View-Dynamic-ContentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table-View-Dynamic-ContentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7B2883250DE07800E6BD25 /* Table_View_Dynamic_ContentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Table_View_Dynamic_ContentUITests.m; sourceTree = "<group>"; };
 		DA7B2885250DE07800E6BD25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA7B2891250DE52600E6BD25 /* TavleTableViewControllerHello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TavleTableViewControllerHello.h; sourceTree = "<group>"; };
+		DA7B2892250DE52600E6BD25 /* TavleTableViewControllerHello.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TavleTableViewControllerHello.m; sourceTree = "<group>"; };
+		DA7B2898250DEFB500E6BD25 /* Teja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Teja.png; sourceTree = "<group>"; };
+		DA7B289B250DF02800E6BD25 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		DA7B289C250DF02800E6BD25 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		DA7B289D250DF02800E6BD25 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		DA7B289E250DF02800E6BD25 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		DA7B289F250DF02800E6BD25 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +119,7 @@
 		DA7B285B250DE07600E6BD25 /* Table-View-Dynamic-Content */ = {
 			isa = PBXGroup;
 			children = (
+				DA7B2894250DED7200E6BD25 /* Images */,
 				DA7B285C250DE07600E6BD25 /* AppDelegate.h */,
 				DA7B285D250DE07600E6BD25 /* AppDelegate.m */,
 				DA7B285F250DE07600E6BD25 /* SceneDelegate.h */,
@@ -115,6 +131,8 @@
 				DA7B286A250DE07800E6BD25 /* LaunchScreen.storyboard */,
 				DA7B286D250DE07800E6BD25 /* Info.plist */,
 				DA7B286E250DE07800E6BD25 /* main.m */,
+				DA7B2891250DE52600E6BD25 /* TavleTableViewControllerHello.h */,
+				DA7B2892250DE52600E6BD25 /* TavleTableViewControllerHello.m */,
 			);
 			path = "Table-View-Dynamic-Content";
 			sourceTree = "<group>";
@@ -135,6 +153,19 @@
 				DA7B2885250DE07800E6BD25 /* Info.plist */,
 			);
 			path = "Table-View-Dynamic-ContentUITests";
+			sourceTree = "<group>";
+		};
+		DA7B2894250DED7200E6BD25 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DA7B2898250DEFB500E6BD25 /* Teja.png */,
+				DA7B289D250DF02800E6BD25 /* 2.png */,
+				DA7B289C250DF02800E6BD25 /* 3.jpg */,
+				DA7B289B250DF02800E6BD25 /* 4.jpg */,
+				DA7B289E250DF02800E6BD25 /* 5.png */,
+				DA7B289F250DF02800E6BD25 /* 6.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +273,12 @@
 			files = (
 				DA7B286C250DE07800E6BD25 /* LaunchScreen.storyboard in Resources */,
 				DA7B2869250DE07800E6BD25 /* Assets.xcassets in Resources */,
+				DA7B28A2250DF02800E6BD25 /* 2.png in Resources */,
+				DA7B28A4250DF02800E6BD25 /* 6.png in Resources */,
+				DA7B289A250DEFB500E6BD25 /* Teja.png in Resources */,
+				DA7B28A1250DF02800E6BD25 /* 3.jpg in Resources */,
+				DA7B28A3250DF02800E6BD25 /* 5.png in Resources */,
+				DA7B28A0250DF02800E6BD25 /* 4.jpg in Resources */,
 				DA7B2867250DE07600E6BD25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA7B2893250DE52600E6BD25 /* TavleTableViewControllerHello.m in Sources */,
 				DA7B2864250DE07600E6BD25 /* ViewController.m in Sources */,
 				DA7B285E250DE07600E6BD25 /* AppDelegate.m in Sources */,
 				DA7B286F250DE07800E6BD25 /* main.m in Sources */,
