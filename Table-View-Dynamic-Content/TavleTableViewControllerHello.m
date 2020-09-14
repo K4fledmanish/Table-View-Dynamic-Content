@@ -15,6 +15,7 @@
 @implementation TavleTableViewControllerHello
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     
     // Uncomment the following line to preserve selection between presentations.
@@ -64,6 +65,7 @@
     
     cell.textLabel.text = arrListOfEmployeeNames[indexPath.section][indexPath.row];
     cell.detailTextLabel.text = @"View";
+    
     
     
     
