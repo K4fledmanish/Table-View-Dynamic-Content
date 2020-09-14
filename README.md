@@ -1,2 +1,2 @@
-# Table-View-Dynamic-Content
-Table Views with Dynamic Content using UITableDataSource and UITableViewDelegate
+# Table-View-ArrayDynamic-Content
+Table Views with Dynamic Content using UITableDataSource, UITableViewDelegate and Array
